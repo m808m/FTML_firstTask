@@ -1,0 +1,518 @@
+body{
+    margin-top: 5%;
+    font-family: Raleway, Roboto, Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url("Сайт.png");
+    background-size: 100%;
+}
+
+h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 110%;
+    margin: 0px 0px 30px 0px;
+
+}
+
+
+/* навигация */
+
+.navigation {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 125px;
+    padding-right: 50px;
+
+}
+
+.navigation p{
+    display: flex;
+    font-size: 16px;
+    padding-right: 5%;
+    justify-content: space-around;
+    font-weight: bold;
+    line-height: 110%;
+    margin-bottom: 2%;
+
+}
+.navigation img{
+    padding-right: 45%;
+    width: 4%;
+} 
+
+/* заставка */ 
+.into{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 480px;
+    margin: auto;
+    padding-left: 125px;
+    padding-right: 50px;
+}
+
+.into h1{
+    height: 8.134%;
+    margin-top: 7.08%;
+    margin-bottom: 20%;
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 110%;
+
+}
+
+.into img{
+    width: 100%;
+    height: 110%;
+    margin: 7% 5% 7% 0%;
+
+
+}
+
+.into p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 80%;
+    color: #FFFFFF;
+}
+
+a.nubex {
+
+    color:white;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: 7%;
+    
+    width: 279px;
+    height: 50px;
+    left: 125px;
+    top: 340px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+    /* блок вопросов */
+
+.questions{
+    width: 1200px;
+    height: 224px;
+    margin: auto;
+    padding-left: 125px;
+    padding-right: 50px;
+}
+.questions ul {
+        list-style-image: url("Rectangle28.png");
+        font-style: normal;
+        font-weight: normal;
+        line-height: 240%;
+}
+
+.questions h2{
+    margin-top: 10%;    
+}
+
+ /* прямоугольник с текстом */
+
+ .rect{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 2% 1.33%;
+    text-align: center;
+
+    margin: 2% auto;
+    width: 706px;
+    height: 5%;
+    border: 125px;
+
+    background: linear-gradient(90.92deg, #C89AFC -20.7%, #7C6AFA 111.12%);
+    border-radius: 11px;
+
+ }
+
+ /* мероприятия */
+ .events{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 438px;
+    margin: 100px auto;
+    padding-left: 125px;
+    padding-right: 50px;
+
+}
+
+
+.events p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    width: 70%;
+
+}
+
+.events img{
+    width: 195px;
+    height: 257px;
+    padding-left: 10%;
+}
+
+
+/* руководители */
+
+.managers{
+    width: 1200px;
+    height: 400px;
+    margin: 10px auto;
+    padding-left: 125px;
+    padding-right: 50px;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photos p{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.photos img{
+    height: 18em;
+    width: 18em;
+
+}
+
+/* стрелки */
+.arrow{
+    display: flex;
+    align-content: center;
+}
+.a{
+    width: 3%;
+    height: 3%;
+}
+#scale {
+    padding: 1%;
+}
+
+/* участники */
+.students{
+    width: 1200px;
+    height: 437px;
+    margin: 20% auto 0% auto;
+    padding-left: 125px;
+    padding-right: 50px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: 3% auto;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.icons p{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.icons img{
+    height: 15em;
+    height: 15em;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: 5% auto 0px auto;
+    padding-left: 125px;
+    padding-right: 50px;
+}
+
+footer h2{
+    width:25% ;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    
+    width: 42%;
+    height: 4%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+footer a{
+    color:white;
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+    padding:3%;
+    margin-left: 5%;
+}
+
+
+
+@media (max-width: 500px), (orientation: portrait) {
+
+    body{
+        margin: 0px;
+        background-color: rgb(0, 17, 52);
+        background-image: url();
+        background-size: 100%;
+    }
+
+    h2{
+        font-size: 15px;
+        margin: 0px 0px 10px 0px;
+    
+    }
+    .fon1{
+        padding-top: 5%;
+        padding-left: 2%;
+        background-image: url("фон1мобил.png");
+        background-size: cover;
+    }
+
+    .navigation {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    
+    }
+    
+    .navigation p{
+        font-size: 9px;
+        justify-content: space-around;
+        font-weight: bold;
+        line-height: 110%;
+    
+    }
+    .navigation img{
+        width: 7%;
+        padding-right: 10%;
+    } 
+
+    .into{
+        padding: 0px;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    
+    .into h1{
+        width: 100%;
+        margin: 10px 0px 0px 5px;
+        font-size: 20px;
+    
+    }
+    
+    .into img{
+        width: 40%;
+        margin: 4% 20% 1% 30%;
+        height: auto;
+    }
+    
+    .into p{
+        padding: 2%;
+        margin: 0px;
+        font-size: 12px;
+
+    }
+    
+    a.nubex {
+        padding: 1px 10px;
+        margin: 10px auto 0px auto;
+        width: 70%;
+        height: 5%;
+
+    }
+
+    .questions{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: auto;
+    }
+
+    .questions ul {
+            font-size: 13px;
+            line-height: 110%;
+    }
+
+     .rect{
+        font-size: 12px;
+        line-height: 140%;
+        padding: 3% 2%;
+
+        margin: 5% auto;
+        width: 80%;
+        height: 4%;
+    
+     }
+ 
+     .events{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 10px 0px;
+        padding-left: 2%;
+        padding-right: 0px;
+    
+    }
+    
+    .events p{
+        font-size: 9px;
+        line-height: 140%;
+        width: 100%;
+    
+    }
+    
+    .events img{
+        margin: 4% 30%;
+        width: 20%;
+        height: 20%;
+
+    }
+
+    .managers{
+        width: 100%;
+        background-image: url("фон2мобил.png");
+        background-size: cover;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 2%;
+    }
+    
+    .photos{
+        justify-content: flex-start;
+    }
+    
+    .photos p{
+        text-align: left;
+        line-height: 140%;
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+    
+    .photos img{
+        margin: 0%;
+        padding: 0%;
+        height: 80%;
+        width: 90%;
+    
+    }
+    
+    .arrow{
+        margin-top: 8%;
+    }
+
+    .students{
+        width: 100%;
+        height: auto;
+        margin: 5% auto 0% auto;
+        padding: 0px;
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin: 1% auto;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .icons p{
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6px;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    
+    .icons img{
+        width: 100%;
+        height: 70%;
+    }
+    
+
+    footer{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    footer h2{
+        margin-top: 5%;
+        width:100% ;
+    }
+    
+    footer p {
+        margin: auto;
+        font-size: 12px;
+        width: 70%;
+        height: 1%;
+    }
+    
+    footer img{
+        margin: 5%;
+    }
+
+    footer a{
+        padding:5%;
+        margin: 3%;
+    }
+    
+  }
